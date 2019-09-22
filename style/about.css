@@ -1,0 +1,31 @@
+#titles{
+    border-bottom: 2px solid #446075;
+}
+h1{
+    color: #446075;
+}
+#content{
+    text-align: left;
+    padding: 5px;
+    line-height: 2;
+    border-bottom: 2px solid #446075;
+}
+#content p{
+    font-family: arial;
+}
+#rules ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#rules{
+    padding-bottom: 20px;
+}
+#rules p{
+    font-family: arial;
+    line-height: 2;
+    border-bottom: 1px solid #78B8C0;
+}
+#rules h2{
+    padding-bottom: 20px;
+}

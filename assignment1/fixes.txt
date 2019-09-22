@@ -1,0 +1,18 @@
+
+org
+	- related news
+		- Dårlig plassering på related news
+		- Related news har lite relasjon til org
+	- lite info om org
+	- ser ikkje ut som nettstedet er laga av org
+	- trenger meir personal touch av org (logo elns)
+	
+
+gov
+	- Ser ikkje ut som det kommer fra GOV
+	- Inkluder flag?
+	- Comments section ser ut som footer 
+		- ser ut som footer beveger seg, not good
+		- ser ut som egne comments.
+			- Add twitter logo på comments for å "dra inn den ekte verdenen"
+	

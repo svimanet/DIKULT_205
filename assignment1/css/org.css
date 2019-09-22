@@ -1,0 +1,295 @@
+html, body, a, h1{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+/***************************************
+ Section for welcome message and image. 
+ ***************************************/
+#welcome_section{
+	height: 400px;
+	background: url("../images/desert2.jpg") fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	font-weight: bold;
+	border-bottom: 2px solid #6194BC;
+}
+#welcome_text{
+	padding-top:50px;
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	font-size: 24px;
+}
+#support{
+	color: white;
+}
+#hand{
+	color: #6194BC;
+}
+#hand:hover{
+	color: #CFF2F3;
+}
+#welcome_text h1:hover{
+	color: #CFF2F3;
+}
+
+#welcome_text h1{
+	font-weight: bold;
+	font-family: Calibri;
+	text-align: center;
+	font-size: 40px;
+	color:  #6194BC;
+}
+#welcome_text h3{
+	color: white;
+}
+/***************************
+ Main content of site 
+ ***************************/
+main{
+	width: 1100px;
+	padding: 0;
+	margin: auto;
+	display: flex;
+}
+
+/***********************
+ Information and goals 
+ ***********************/
+#left_side{
+
+	width:70%;
+	padding: 20px;
+	margin: 10px;
+}
+#information_section{
+	background: url("../images/ujsario.jpg");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	border-bottom: 2px solid #6194BC;
+	font-family: arial;
+}
+#information_section h2{
+	color: #D78035;
+}
+#information_section h3{
+	color:  #6194BC;
+}
+.text_links{
+	color: #D78035;
+	font-weight: bold;
+}
+.media_buttons ul{
+	display: inline-flex;
+	padding: 0;
+
+}
+.media_buttons li{
+	display: inline-flex;
+}
+.media_buttons img{
+	width: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/********************
+	Goals section
+*********************/
+#title_div{
+	width: 100%;
+	text-align: center;
+	font-family: Arial;
+}
+#title_div h4{
+	color: #D78035;
+	padding: 0;
+	padding-top: 20px;
+	margin: 0;
+	padding-right:30px;
+}
+#title_div h2{
+	padding: 0;
+	margin: 0;
+	padding-right:30px;
+	color: #6194BC;
+}
+#goals_section{
+	display: inline-flex;
+	font-family: Arial;
+}
+#goals_section h3{
+	color: #D78035;
+}
+.goals_info{
+	width: 45%;
+}
+
+/*******************************
+	Goals left - Donate section
+********************************/
+#goals_left{
+	padding-top: 30px;
+	margin-right: 20px;
+	width: 40%;
+}
+#goals_left input{
+	padding: 10px;
+	padding-right: 10px;
+	margin: 5px;
+}
+#goals_left p{
+	padding-left: 5px;
+}
+.long_in{
+	width: calc(100% - 40px);
+}
+.small_in{
+	width: 30%;
+}
+#donate_btn{
+	color: #CFF2F3;
+	font-size: 20px;
+	background: #D78035;
+	width: 300px;
+}
+
+/*********************
+	The middle meter
+**********************/
+#goals_meter{
+	background: linear-gradient(silver 60%, #6194BC 40%) ;
+	margin-top: 20px;
+	width: calc(5% - 12px);
+	border: 6px solid silver;
+	border-radius: 20px;
+	height: 500px;
+}
+
+/********************************
+	Goals right - Donate section
+*********************************/
+#goals_right{
+	display: flex;
+}
+#current_donations{
+	display: inline-flex;
+	padding-top: 285px;
+	border-bottom: 4px solid silver;
+	padding-left: 5px;
+	padding-right: 0;
+	margin-right: 100px;
+	width: calc(200px - 100px);
+	height: 40px;
+}
+#current_donations h3{
+	padding-bottom: 0px;
+	margin-bottom: 0; 
+}
+
+/**************************
+ recent dontaions section
+ **************************/
+#donations{
+	width: calc(100% - 100px);
+	height: 566px;
+	overflow: hidden; 
+}
+.recent_donation{
+	width: 90%;
+	border-bottom: 2px solid #6194BC;
+	padding: 5px;
+	margin: auto;
+	display: flex;
+	opacity: 1;
+	transition: opacity 2s;
+}
+.recent_donation img{
+	width: 100%;
+	padding: 0;
+}
+.recent_donation h4{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+	margin: 10px 0 5px 0;
+	font-size: 14px;
+}
+.recent_donation p{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.img_wrapper{
+	height: 30%;
+	width: 30%;
+	border: 1px solid white;
+	border-radius: 100%;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.recent_text{
+	padding: 0;
+	margin: 0;
+}
+.hide{
+	opacity: 0;
+
+}
+
+/******************
+ *	Related news  *
+ ******************/
+#news_section{
+	width: 20%;
+	padding: 10px;
+	margin: 10px;
+	background-color: #EFEFEF;
+	border: 1px solid #EFEFEF;
+	border-radius: 10px;
+}
+#related_news_title{
+	text-align: center;
+	border-bottom: 2px solid #6194BC;
+}
+.related_news{
+	padding-top: 20px;
+	width: 100%;
+	border-bottom: 2px solid #6194BC;
+}
+.related_news h3{
+	text-align: center;
+}
+.news_image img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*********************
+ *  Footer section   *
+ *********************/
+footer{
+	border-top: 2px solid #6194BC;
+	background-color: #CFF2F3;
+	text-align: center;
+	color: #6194BC;
+	font-family: Arial;
+}
+#footer{
+	width: 50%;
+	margin: auto;
+}
+#footer section{
+	width: 75%;
+	margin: auto;
+}
+

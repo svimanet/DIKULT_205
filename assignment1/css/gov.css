@@ -1,0 +1,348 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	background: #EFEFEF;
+}
+a{
+	text-decoration: none;
+}
+
+
+/**********************
+	   Menu section   *
+***********************/
+header{
+	background: #333333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #6194BC;
+}
+#menu{
+	width: 1100px;
+	margin: auto;
+}
+#menu ol{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#menu li{
+	margin: auto;
+	display: inline;
+}
+#menu a{
+	margin: 0 20px 0 20px;
+	color: #CAEBF2;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+#menu a:hover{
+	color: #186682;
+	background: #EFEFEF;
+}
+
+/* **************
+		MAIN
+   *************/
+main{
+	width: 1100px;
+	margin: auto;
+	margin-top: 0;
+	padding-top: 0;
+	display: flex;
+	flex-direction: column;
+
+}
+/**************************
+	LEFT content section  *
+**************************/
+#main_section{
+	border-right: 2px solid #6194BC;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/***************************
+	   LEFT-TOP Info       *
+***************************/
+#TOP_welcome{
+	border-left: 2px solid #6194BC;
+	padding: 10px;
+
+	display: flex;
+	flex-direction: column;
+
+
+	background: url("../images/bg1.jpg") no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#TOP_welcome > h1{
+	text-align: center;
+	font-size: 34px;
+	color: #186682;
+	border-bottom: 2px solid #6194BC;
+	margin: 10px 100px 10px 100px;
+}
+#container_for_terror_groups{
+	display: flex;
+	flex-direction: row;
+	padding: 20px 20px 50px 20px;
+}
+#container_for_terror_groups h3{
+	text-align: center;
+	color: #186682;
+}
+#container_for_terror_groups p{
+	padding: 20px;
+	text-align: center;
+	font-family: Arial;
+}
+
+
+
+/**************************
+   LEFT-BOT poll and info *
+**************************/
+#Poll_and_info{
+	display: flex;
+	flex-direction: row;
+	border-top: 2px solid #6194BC;
+}
+#poll_section{
+	border-left: 2px solid #6194BC;
+	border-right: 2px solid #6194BC;
+	background: white;
+	width: calc(30% - 20px - 4px);
+	padding: 10px;
+}
+#graph_wrapper{
+	width: 100%;
+}
+#graph_wrapper img{
+	width: 100%;
+	margin: auto;
+}
+#poll_section h3{
+	color: #186682;
+	font-weight: bold;
+	font-family: Arial;
+	background: #EFEFEF;
+	margin: 0;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+.buttons{
+	margin: auto;
+	width: 150px;
+	height: 50px;
+
+	font-size: 25px;
+	font-weight: bold;
+
+	background: #6194BC;
+	border: 2px solid #6194BC;
+	color: white;
+}
+form {
+	display: flex;
+}
+#yes:hover{
+	color: lightgreen;
+}
+#no:hover{
+	color: red;
+}
+
+
+/* Infomation section */
+
+#info_section_2{
+	background: white;
+	width: calc(70% - 20px);
+	padding: 10px 10px 30px 10px;
+	display: flex;
+
+}
+#info_section_2 h1{
+	text-align: center;
+	color: #186682;
+	font-size: 24px;
+	border-bottom: 2px solid #6194BC;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#info_section_2_2{
+	width: 75%;
+}
+#info_section_2_2 p{
+	padding-top: 30px;
+	font-family: Arial;
+}
+#image_section{
+	margin: 15% 10px 10px 10px;
+}
+.img_wrapper_info2{
+	width: 200px;
+	height: 100px;
+	overflow: hidden;
+	background: black;
+	border: 2px solid #6194BC;
+	margin: 20px 20px 0 0;
+}
+.img_wrapper_info2 img{
+	max-height: 100%;
+	display: block;
+	margin: auto;
+
+}
+
+/* Media buttons before comments */
+#media_info{
+	background: white;
+	border-left: 2px solid #6194BC;
+	border-bottom: 2px solid #6194BC;
+	background: url("../images/flag.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#media_info section{
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+#media_info p{
+	font-family: Arial;
+	padding: 5px 0 0 0;
+	margin: 0;
+	text-align: center;
+	font-size: 10px;
+	color: #CAEBF2;
+	font-weight: bold;
+	font-size: 14px;
+}
+#hashtags{
+	display: inline-flex;
+}
+.hashtag{
+	margin: 0 5px 0 5px;
+	padding: 3px;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	background: #CAEBF2;
+	border: 1px solid #CAEBF2;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #6194BC;
+}
+.hashtag:hover{
+	color: white;
+}
+/*************************
+	BOT Info  comments *
+ ************************/
+#comments_section{
+	width: calc(1100px - 2px);
+	height: 100px;
+	overflow: hidden;
+	border-right: 2px solid #6194BC;
+	font-family: Arial;
+}
+.comment{
+	width: calc(20% - 3px);
+	height: calc(100px - 1px);
+	margin: 0;
+	padding: 0;
+	float: left;
+	border-bottom: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	border-left: 2px solid #6194BC;
+	transition: opacity 2s;
+
+}
+.comment h3{
+	font-size: 14px;
+	text-align: center;
+	padding: 5px 0 3px 0;
+	margin: 0;
+}
+.comment p{
+	font-size: 12px;
+	padding: 5px 10px 5px 10px;
+	margin: 0;
+	text-align: center;
+}
+.hash{
+	color: #186682;
+}
+.hash:hover{
+	color: white;
+}
+.hide{
+	opacity: 0;
+
+}
+.comment_pic{
+	width: 20px;
+	height: 20px;
+	padding-right: 35px;
+}
+.pic_title{
+	display: inline-flex;
+
+}
+
+
+/********************
+ 	Media buttons   *
+*********************/
+.media_buttons ul{
+	display: inline-flex;
+	padding: 0;
+}
+.media_buttons li{
+	display: inline-flex;
+}
+.media_buttons img{
+	width: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+/*********************
+	Footer goes here *
+*******************//*
+	Lyseblå: #CAEBF2 *
+	    Grå: #A9A9A9 *
+	    Rød: #FF3B3F *
+	Lysegrå: #EFEFEF *
+**********************/
+footer{
+	border-top: 2px solid #6194BC;
+	background: #333333;
+	text-align: center;
+	color: #6194BC;
+	font-family: Arial;
+
+}
+footer h3{
+	font-size: 12px;
+}
+#footer{
+	width: 50%;
+	margin: auto;
+}
+#footer section{
+	width: 75%;
+	margin: auto;
+}

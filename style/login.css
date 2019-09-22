@@ -1,0 +1,28 @@
+#main_section{
+	width: 300px;
+	padding-top: 50px;
+	margin: auto;
+}
+
+form{
+	width: 100%;
+	padding: 30px 10px 30px 10px;
+	border: 1px solid #C9EBF3;
+	border-radius: 10px;
+	background: #C9EBF3;
+}
+
+.txt_field{
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+}
+#radio{ 	
+	margin: auto;
+	display: inline-block;
+
+}
+#sign_up{
+	color: #78B8C0;
+}

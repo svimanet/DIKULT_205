@@ -1,0 +1,9 @@
+form{
+    padding-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+input{
+    margin: 0 0 10px 0;
+}
